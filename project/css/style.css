@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+    color: bisque;
+}
+header {
+  display: flex;
+  height: 125px;
+  width: 100%;
+  background-color: #4a2c23;
+  align-items: center;
+}
+header div {
+  flex-grow: 1;
+  width: auto;
+  height: 115px;
+}
+header img {
+  width: auto;
+  height: 100%;
+}
+ul {
+  display: flex;
+}
+header li {
+  list-style: none;
+  display: flex;
+  margin: 0 10px;
+}
+header li a {
+  color: rgb(211, 211, 211);
+}
+/* .homeimg
+{
+    margin-top: 25px;
+} */
+.homeimg > div {
+  width: 100vw;
+  height: 100vh;
+}
+.homeimg > div > img {
+  height: 100%;
+  width: 100%;
+}
+.title {
+  background-color: #4a2c23;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.title h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.title p {
+  font-size: 1.2rem;
+  margin: 10px 0 20px;
+}
+
+.title button {
+  background-color: #af7e57;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.title button:hover {
+  background-color: #8c6746;
+}
+footer {
+  background-color: #4a2c23;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer section {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #af7e57;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.shoppagemain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #dcd8d5;
+}
+
+.shoppagemain > .productimg {
+  object-fit: cover;
+}
+.cart {
+  background-color: #af7e57;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 5px;
+}
+.cart:hover {
+  background-color: #8c6746;
+}
+.button-container {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+.pagebutton {
+  margin-left: 10px;
+  background-color: aliceblue;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-container .pagebutton:hover
+{
+    background-color: #dcd8d5;
+}
+#aboutimg
+{
+    width: 100vw;
+    height: auto;
+}
+#aboutimg>img
+{
+    width: 100%;
+    height: 100%;
+}
